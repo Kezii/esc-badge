@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 62.23 104.14)
-		(size 44.45 38.1)
+		(at 77.47 86.36)
+		(size 34.29 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -18,7 +18,7 @@
 		)
 		(uuid "c21a255b-57d7-42f2-a297-078efe3a9c86")
 		(property "Sheetname" "keyboard"
-			(at 62.23 103.4284 0)
+			(at 77.47 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "keyboard.kicad_sch"
-			(at 62.23 142.8246 0)
+			(at 77.47 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		)
 	)
 	(sheet
-		(at 146.05 60.96)
+		(at 77.47 46.99)
 		(size 34.29 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -56,7 +56,7 @@
 		)
 		(uuid "d3fb9833-a00e-444d-9e5a-c108fd26b22a")
 		(property "Sheetname" "mcu"
-			(at 146.05 60.2484 0)
+			(at 77.47 46.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65,7 +65,7 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 146.05 88.2146 0)
+			(at 77.47 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,8 +82,46 @@
 		)
 	)
 	(sheet
-		(at 162.56 118.11)
-		(size 33.02 25.4)
+		(at 121.92 46.99)
+		(size 33.02 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f56a97b8-cdf4-4860-a0f6-235c1ed6139a")
+		(property "Sheetname" "sensors"
+			(at 121.92 46.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensors.kicad_sch"
+			(at 121.92 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "badge"
+				(path "/dc4a3d77-b0f8-4e90-a4be-3e93c7025348"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 120.65 86.36)
+		(size 34.29 27.94)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -94,7 +132,7 @@
 		)
 		(uuid "fa1edb42-107e-4301-94d6-2222638475c5")
 		(property "Sheetname" "power"
-			(at 162.56 117.3984 0)
+			(at 120.65 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103,7 +141,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 162.56 144.0946 0)
+			(at 120.65 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)

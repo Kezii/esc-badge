@@ -415,6 +415,10 @@
     [
       "fa1edb42-107e-4301-94d6-2222638475c5",
       "power"
+    ],
+    [
+      "f56a97b8-cdf4-4860-a0f6-235c1ed6139a",
+      "sensors"
     ]
   ],
   "text_variables": {}
